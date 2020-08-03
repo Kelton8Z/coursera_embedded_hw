@@ -56,7 +56,7 @@ int find_median(int arr[],int n)
 int find_mean(int arr[],int n) 
 {
     int i;
-    int sum;
+    int sum = 0;
     for (i = 1; i < n; i++)
 	sum += arr[i];
     return sum/n;
